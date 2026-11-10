@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="581ecda3-ec06-42a2-86ee-d75a620054ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Uppgift 3/Uppgift 3.py" afterDir="false" />
-    </list>
+    <list default="true" id="581ecda3-ec06-42a2-86ee-d75a620054ef" name="Changes" comment="Uppgift 2 del 2 Menu + lagra radera vis" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,26 +19,27 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000040604637" />
-      <entry key="MS500" value="1.0301575017852325" />
-      <entry key="S2" value="1.729073088038236" />
-      <entry key="S5" value="2.8642819237022996" />
-      <entry key="S10" value="4.3536643651574956" />
-      <entry key="S30" value="11.761065503142596" />
-      <entry key="S60" value="24.128331048620737" />
-      <entry key="M2" value="43.722862963021655" />
-      <entry key="M5" value="77.3969145244162" />
-      <entry key="M10" value="111.93870735857321" />
-      <entry key="M15" value="137.52734530071982" />
-      <entry key="M30" value="184.41746628128115" />
-      <entry key="H1" value="223.7051669324113" />
-      <entry key="H2" value="249.8848479358157" />
-      <entry key="H4" value="265.10880676212173" />
-      <entry key="D1" value="279.0602306704519" />
-      <entry key="W1" value="281.57686008520534" />
+      <entry key="MS100" value="1.0000114180006852" />
+      <entry key="MS500" value="1.1440390539724232" />
+      <entry key="S2" value="2.5451578905818675" />
+      <entry key="S5" value="3.7506379992435157" />
+      <entry key="S10" value="4.8340079162554375" />
+      <entry key="S30" value="7.738463918503042" />
+      <entry key="S60" value="10.181430560667584" />
+      <entry key="M2" value="18.269111041849655" />
+      <entry key="M5" value="50.00287497673881" />
+      <entry key="M10" value="90.74867524907343" />
+      <entry key="M15" value="120.86012253186897" />
+      <entry key="M30" value="176.12617030986038" />
+      <entry key="H1" value="223.05417941439586" />
+      <entry key="H2" value="254.7201207752097" />
+      <entry key="H4" value="273.28153381026056" />
+      <entry key="D1" value="290.38484875256495" />
+      <entry key="W1" value="293.4794091257366" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -64,23 +61,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329953474399" />
-      <entry key="MS500" value="1.0158904810885425" />
-      <entry key="S2" value="1.7222318595397361" />
-      <entry key="S5" value="2.8594660028675456" />
-      <entry key="S10" value="4.34997368964008" />
-      <entry key="S30" value="11.757858941026647" />
-      <entry key="S60" value="24.12506685484856" />
-      <entry key="M2" value="43.71916086776974" />
-      <entry key="M5" value="77.38683421974106" />
-      <entry key="M10" value="111.91908756098071" />
-      <entry key="M15" value="137.50386605379728" />
-      <entry key="M30" value="184.39473088300613" />
-      <entry key="H1" value="223.68888324926618" />
-      <entry key="H2" value="249.87503364209974" />
-      <entry key="H4" value="265.1034096726516" />
-      <entry key="D1" value="279.05925605203396" />
-      <entry key="W1" value="281.57671891545846" />
+      <entry key="MS100" value="0.9460684490740144" />
+      <entry key="MS500" value="1.1315714145694364" />
+      <entry key="S2" value="2.538927289695155" />
+      <entry key="S5" value="3.7467230305219976" />
+      <entry key="S10" value="4.828772944368027" />
+      <entry key="S30" value="7.731114792058346" />
+      <entry key="S60" value="10.175751456795684" />
+      <entry key="M2" value="18.265007301670618" />
+      <entry key="M5" value="49.996275193544896" />
+      <entry key="M10" value="90.73399827215138" />
+      <entry key="M15" value="120.84094720886365" />
+      <entry key="M30" value="176.1056420821509" />
+      <entry key="H1" value="223.03867099182995" />
+      <entry key="H2" value="254.71051568187661" />
+      <entry key="H4" value="273.2761787197298" />
+      <entry key="D1" value="290.38387053441056" />
+      <entry key="W1" value="293.4792671543392" />
     </decayedShown>
   </component>
   <component name="ProjectViewState">
@@ -94,7 +91,6 @@
     "Python.Uppgift 3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -120,12 +116,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794334399222</updated>
-      <workItem from="1794334400204" duration="5532000" />
+      <workItem from="1794334400204" duration="5887000" />
     </task>
+    <task id="LOCAL−00001" summary="Uppgift 2 del 2 Menu + lagra radera vis">
+      <option name="closed" value="true" />
+      <created>1794343407656</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1794343407657</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Uppgift 2 del 2 Menu + lagra radera vis">
+      <option name="closed" value="true" />
+      <created>1794343536709</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1794343536709</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Uppgift 2 del 2 Menu + lagra radera vis">
+      <option name="closed" value="true" />
+      <created>1794343553049</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1794343553049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uppgift 2 del 2 Menu + lagra radera vis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uppgift 2 del 2 Menu + lagra radera vis" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Prgogramering_php$Uppgift_3.coverage" NAME="Uppgift 3 Coverage Results" MODIFIED="1794342682493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Uppgift 3" />
