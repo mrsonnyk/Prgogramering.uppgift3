@@ -1,3 +1,25 @@
+FILENAME = "backup_file.txt"
+
+#Reading from file saved content and restoring the list
+def load_list_from_file():
+     try:
+         with open(FILENAME, "r",encoding = "utf-8") as fil:
+             for rad in fil:
+                 if rad.strip():    #rensar mellanslag och så raden ej är tom
+                      the_list.append(rad.strip())
+     except FileNotFoundError:
+         #ignorerar om filen inte finns, den skapas mew när python försöker skriva till den
+         pass
+
+
+#Creates or writes over the backup file with the_list
+def save_list_to_file():
+     with open(FILENAME, "w",encoding = "utf-8") as fil:
+         for value in the_list:
+             fil.write(value + "\n")
+
+
+
 #Ask user for menu choise: (0-3)
 #    return: menu_value
 def get_user_menu_choise():
@@ -18,7 +40,9 @@ def print_list():
     if not the_list:                            #the_list är False om den är tom
         print("Listan är tom")
     else:
+        print("\n - - Listans innehåll - -") 
         for number, x in enumerate(the_list):     #Skapar värdepar av samtliga värden i listan:
+
             print(f"{number+1}: {x}")       # ex: list = ["ett","två"] hade gett (1, ett) (2, två). nummer=1,x=ett
 
 
@@ -51,9 +75,10 @@ def delete_value_from_list():
 
 # Huvudmeny Main
 the_list = []    #Skapar en tom lista, efter som listan bara är en referens till minnet kommer alla funtioner åt den
+load_list_from_file()   #Hämtar om det finns sparade värden i separat funktion från lista
 #Startar en evighetsloop som avslutas först när användaren ber om det med menyval som genererar break
 while True:
-    print("-=Huvudmenyn=-")
+    print("\n-=Huvudmenyn=-")
     print("0. Avsluta programmet.")
     print("1. Visa listan.")
     print("2. Lägg till.")
@@ -66,4 +91,6 @@ while True:
     elif usr_pick == 3:                      #om ta bort
         delete_value_from_list()             #Tar bort värde i separat funktion
     else:                                    #Menyval avsutar programmet genom att bryta loopen
+        save_list_to_file()                  #Sparar värderna
+        print("\nListan har sparats och programmet avslutas nu.")
         break                                #Bryter loopen och avslutar
