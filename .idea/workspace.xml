@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="581ecda3-ec06-42a2-86ee-d75a620054ef" name="Changes" comment="Uppgift 3 v.6 loopar samt hanterar fel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uppgift 3/Uppgift 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uppgift 3/Uppgift 3.py" afterDir="false" />
-    </list>
+    <list default="true" id="581ecda3-ec06-42a2-86ee-d75a620054ef" name="Changes" comment="Uppgift 3 v.7 Tydliga kommentarer och backup till fil" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,61 +46,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000781055334" />
-      <entry key="MS500" value="1.0378910255956793" />
-      <entry key="S2" value="1.4411986994411952" />
-      <entry key="S5" value="1.7226624156670416" />
-      <entry key="S10" value="1.900171785513397" />
-      <entry key="S30" value="3.7825422002174713" />
-      <entry key="S60" value="9.397791686778849" />
-      <entry key="M2" value="21.092956605168936" />
-      <entry key="M5" value="52.16809016127465" />
-      <entry key="M10" value="96.65111198696371" />
-      <entry key="M15" value="136.53680034246136" />
-      <entry key="M30" value="237.27106136698782" />
-      <entry key="H1" value="391.1548684463293" />
-      <entry key="H2" value="578.2738296477867" />
-      <entry key="H4" value="742.2500881392657" />
-      <entry key="D1" value="943.8699919313973" />
-      <entry key="W1" value="986.6035344334488" />
+      <entry key="MS100" value="1.3786103250905524" />
+      <entry key="MS500" value="2.4181780424658648" />
+      <entry key="S2" value="2.8343292766766925" />
+      <entry key="S5" value="2.931926789212553" />
+      <entry key="S10" value="2.9656549664328793" />
+      <entry key="S30" value="2.9884911636375446" />
+      <entry key="S60" value="3.003689996329576" />
+      <entry key="M2" value="3.3755882217491426" />
+      <entry key="M5" value="10.882624913599077" />
+      <entry key="M10" value="39.09102754534487" />
+      <entry key="M15" value="73.41374647309371" />
+      <entry key="M30" value="173.5406819920511" />
+      <entry key="H1" value="335.72531107270584" />
+      <entry key="H2" value="538.5894460642546" />
+      <entry key="H4" value="720.7245541299412" />
+      <entry key="D1" value="949.4215435279563" />
+      <entry key="W1" value="998.4878623120381" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.129220066962598E-87" />
-      <entry key="S2" value="2.905765112812221E-22" />
-      <entry key="S5" value="2.4284971050936487E-9" />
-      <entry key="S10" value="4.970996915547068E-5" />
-      <entry key="S30" value="0.044222092260243824" />
-      <entry key="S60" value="0.278421705052463" />
-      <entry key="M2" value="0.7324466588959105" />
-      <entry key="M5" value="1.332048904879955" />
-      <entry key="M10" value="1.6336955023720325" />
-      <entry key="M15" value="1.7714034818670592" />
-      <entry key="M30" value="2.1482870008572617" />
-      <entry key="H1" value="2.9439752489199176" />
-      <entry key="H2" value="3.95227094710551" />
-      <entry key="H4" value="4.79259944114929" />
-      <entry key="D1" value="5.766763828058735" />
-      <entry key="W1" value="5.965793964511796" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.1657488744063315E-170" />
+      <entry key="S5" value="2.070273489748619E-68" />
+      <entry key="S10" value="1.451404813563006E-34" />
+      <entry key="S30" value="6.3205418043403765E-12" />
+      <entry key="S60" value="3.3285922652319964E-6" />
+      <entry key="M2" value="0.00253253092763838" />
+      <entry key="M5" value="0.13804849362349877" />
+      <entry key="M10" value="0.5259286921774958" />
+      <entry key="M15" value="0.8320600323965219" />
+      <entry key="M30" value="1.472349401907148" />
+      <entry key="H1" value="2.437212777137988" />
+      <entry key="H2" value="3.5960552515696116" />
+      <entry key="H4" value="4.571523490826608" />
+      <entry key="D1" value="5.72155138729564" />
+      <entry key="W1" value="5.959089564596427" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0020644884241677215" />
-      <entry key="MS500" value="0.2995145866068363" />
-      <entry key="S2" value="1.0432514019035046" />
-      <entry key="S5" value="1.5107685705700544" />
-      <entry key="S10" value="1.7819338517097556" />
-      <entry key="S30" value="3.7800221184008884" />
-      <entry key="S60" value="9.633991366622785" />
-      <entry key="M2" value="21.77160026858387" />
-      <entry key="M5" value="53.43836105770803" />
-      <entry key="M10" value="98.23044837740532" />
-      <entry key="M15" value="138.26148631607305" />
-      <entry key="M30" value="239.38464955270885" />
-      <entry key="H1" value="394.07238538922576" />
-      <entry key="H2" value="582.2067323138803" />
-      <entry key="H4" value="747.030131136004" />
-      <entry key="D1" value="949.6340481931087" />
-      <entry key="W1" value="992.5689225705858" />
+      <entry key="MS100" value="1.1932796990972736" />
+      <entry key="MS500" value="2.216457425712432" />
+      <entry key="S2" value="2.759522883344242" />
+      <entry key="S5" value="2.8994891004481644" />
+      <entry key="S10" value="2.9489917857420296" />
+      <entry key="S30" value="2.982835587456983" />
+      <entry key="S60" value="3.0008513675677384" />
+      <entry key="M2" value="3.376497106352755" />
+      <entry key="M5" value="11.01365501863092" />
+      <entry key="M10" value="39.59912543089464" />
+      <entry key="M15" value="74.22363358884868" />
+      <entry key="M30" value="174.98913071013288" />
+      <entry key="H1" value="338.1405586900822" />
+      <entry key="H2" value="542.1678476414143" />
+      <entry key="H4" value="725.2840847580597" />
+      <entry key="D1" value="955.1404059564398" />
+      <entry key="W1" value="1004.4465461306276" />
     </decayedShown>
   </component>
   <component name="ProjectViewState">
@@ -142,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794334399222</updated>
-      <workItem from="1794334400204" duration="14974000" />
+      <workItem from="1794334400204" duration="15806000" />
     </task>
     <task id="LOCAL−00001" summary="Uppgift 2 del 2 Menu + lagra radera vis">
       <option name="closed" value="true" />
@@ -193,7 +190,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1794351985949</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Uppgift 3 v.7 Tydliga kommentarer och backup till fil">
+      <option name="closed" value="true" />
+      <created>1794354166957</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1794354166957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,9 +208,10 @@
     <MESSAGE value="Uppgift 3 v.3 med funktioner" />
     <MESSAGE value="Uppgift 3 v.4 loopar och vilkor" />
     <MESSAGE value="Uppgift 3 v.6 loopar samt hanterar fel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uppgift 3 v.6 loopar samt hanterar fel" />
+    <MESSAGE value="Uppgift 3 v.7 Tydliga kommentarer och backup till fil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uppgift 3 v.7 Tydliga kommentarer och backup till fil" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Prgogramering_php$Uppgift_3.coverage" NAME="Uppgift 3 Coverage Results" MODIFIED="1794353848451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Uppgift 3" />
+    <SUITE FILE_PATH="coverage/Prgogramering_php$Uppgift_3.coverage" NAME="Uppgift 3 Coverage Results" MODIFIED="1794353920819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Uppgift 3" />
   </component>
 </project>
