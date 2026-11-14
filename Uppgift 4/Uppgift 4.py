@@ -28,15 +28,17 @@ def load_list_from_file():
 def plot_time_and_temperature(tider, temperaturer):
     avg_temp = sum(temperaturer)/len(temperaturer)
     figure, axes = plt.subplots()                   #Delar upp figuren i bild / kordinatsystem för att underlätta
-    axes.plot(tider, temperaturer,color="red", marker="o")                              #Skapar grund plotten
-    axes.axhline(avg_temp, color="blue", linestyle="--", label=f"Medel ({avg_temp:.1f} °C)")  #Lägger till en avg linje
+    axes.plot(tider, temperaturer,color="red", marker="o")        #Skapar grund plotten med tider /temp
+    axes.axhline(avg_temp, color="blue", linestyle="--", label=f"Medel ({avg_temp:.1f} °C)") #Lägger till en avg_t linje
     axes.set_title("Temeraturmätning")
     axes.set_ylabel("Temperatur (°C)")
     axes.set_xlabel("Tid")
     axes.grid(True)                                                                 # Lägger till ett rutnät
-    plt.legend()                                                                    #Anropas för tilläggs rutan för avg
+    plt.legend()
+    figure.savefig("temperatur.png", dpi=300, bbox_inches="tight") # Sparar plotten
     plt.show()  # Öppnar fönstret med grafen
+    plt.close()
 
 #Huvudprogram
-tider, temperaturer = load_list_from_file()
-plot_time_and_temperature(tider, temperaturer)
+tider, temperaturer = load_list_from_file() #Hämtar mätdata från fil och sparar i 2 listor
+plot_time_and_temperature(tider, temperaturer)  #plottar värderna från listorna
